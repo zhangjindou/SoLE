@@ -38,7 +38,7 @@ param_space_SoLE_Complex_fb15k = {
     "l2_reg_lambda": 0.01,
     "lr": 0.001,
     "batch_num": 100,
-    "NNE_enable": True,
+    "NNE_enable": False,
     "max_iter": 100000,
     "neg_ratio": 6, # 2,6,10
     "contiguous_sampling": False,

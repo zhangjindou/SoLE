@@ -2,7 +2,7 @@
 
 Enhanced Knowledge Graph Embedding by Jointly Learning Soft Rules and Facts.
 
-Paper is published in MDPI Algorithms: [download here][https://www.mdpi.com/1999-4893/12/12/265].
+Paper is published in MDPI Algorithms: [download here](https://www.mdpi.com/1999-4893/12/12/265).
 
 ### Statement
 
@@ -31,17 +31,17 @@ Rules extracted by [AMIE+](https://www.mpi-inf.mpg.de/departments/databases-and-
 
 #### Forward Chaining Reasoning
 
-The project `GenGroundings` functions this module. After executing [GroundAllRulesByRE.java](https://www.github.com/zhangjindou/SoLE/GenGroundings/src/GroundAllRulesByRE.java), it will performs the reasoning and generates the groundings in the file `groundings_[confidence].txt` or `groundings_oneTime_[confidence].txt`.
+The project `GenGroundings` functions this module. After executing [GroundAllRulesByRE.java](https://github.com/zhangjindou/SoLE/blob/master/GenGroundings/src/GroundAllRulesByRE.java), it will performs the reasoning and generates the groundings in the file `groundings_[confidence].txt` or `groundings_oneTime_[confidence].txt`.
 
 ### Embedding Learning Stage
 
 #### Configurations
 
-The configurations of datasets can be set in [config.py](https://www.github.com/zhangjindou/SoLE/EmbLearning/config.py)
+The configurations of datasets can be set in [config.py](https://github.com/zhangjindou/SoLE/blob/master/EmbLearning/config.py)
 
 #### Hyperparameters
 
-Add hyperparameters dict and its identifier in [model_param_space.py](https://www.github.com/zhangjindou/SoLE/EmbLearning/model_param_space.py).
+Add hyperparameters dict and its identifier in [model_param_space.py](https://github.com/zhangjindou/SoLE/blob/master/EmbLearning/model_param_space.py).
 
 ### Evaluation
 
