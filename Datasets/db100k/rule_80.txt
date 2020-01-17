@@ -1,0 +1,16 @@
+?a  sourceMountain  ?b   => ?a  sourcePlace  ?b	0.964539007
+?a  distributingLabel  ?b   => ?a  distributingCompany  ?b	0.914666667
+?a  mouthMountain  ?b   => ?a  mouthPlace  ?b	0.949748744
+?a  distributingCompany  ?b   => ?a  distributingLabel  ?b	0.91588785
+?b  sisterNewspaper  ?a   => ?a  sisterNewspaper  ?b	0.87654321
+?a  sourcePlace  ?b   => ?a  sourceMountain  ?b	0.978417266
+?a  mouthPlace  ?b   => ?a  mouthMountain  ?b	0.959390863
+?a  nationality  ?b   => ?a  stateOfOrigin  ?b	0.990752972
+?a  musicalArtist  ?b   => ?a  musicalBand  ?b	0.887944984
+?a  musicalBand  ?b   => ?a  musicalArtist  ?b	0.878
+?f  sisterNewspaper  ?a  ?b  sisterNewspaper  ?f   => ?a  sisterNewspaper  ?b	0.826530612
+?a  sisterNewspaper  ?f  ?b  sisterNewspaper  ?f   => ?a  sisterNewspaper  ?b	0.826530612
+?f  sisterNewspaper  ?b  ?a  sisterNewspaper  ?f   => ?a  sisterNewspaper  ?b	0.826530612
+?e  sisterNewspaper  ?a  ?e  sisterNewspaper  ?b   => ?a  sisterNewspaper  ?b	0.826530612
+?a  associatedMusicalArtist  ?b   => ?a  associatedBand  ?b	0.863459273
+?a  associatedBand  ?b   => ?a  associatedMusicalArtist  ?b	0.863381047
